@@ -1,0 +1,15 @@
+[package]
+name = "bbctl"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "bblib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "bbctl"
+path = "src/bbctl/main.rs"
+
+[dependencies]
+rusb = "0.9"
